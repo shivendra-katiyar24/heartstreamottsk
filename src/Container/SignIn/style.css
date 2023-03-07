@@ -14,7 +14,7 @@ ul {
   display: inline-block;
 }
 
-img {
+.heartStreamIcon {
   width: 100px;
 }
 
@@ -118,7 +118,7 @@ img {
   background-color: inherit;
 }
 
-#navbarBtns {
+.navbarBtns {
   background-color: black;
   border: none;
   color: white;
@@ -126,7 +126,7 @@ img {
   transition-duration: 0.9ms;
 }
 
-#navbarBtns:hover {
+.navbarBtns:hover {
   background-color: red;
   color: white;
 }
@@ -165,7 +165,7 @@ img {
     margin: 30px;
 } */
 
-#btnContainer2{
+.btnContainer2{
     width: 290px;
     height: 120px;
     background-color: #212121;
@@ -177,7 +177,7 @@ img {
 
 }
 
-#btnContainer2:hover{
+.btnContainer2:hover{
     background-color: red;
   color: white;
 }
@@ -185,4 +185,146 @@ img {
 .container3{
     margin-left: 173px;
     margin-top: 67px;
+}
+
+.container4 li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* margin:30px; */
+    padding-left: 16px;
+    display: inline-block;
+}
+
+.container4{
+    margin-left: 100px;
+}
+
+/* .container4:hover{
+    background-color: rgb(113, 110, 110);
+  color: white;
+} */
+
+
+.movieImg{
+  width: 381px;  
+  height: 214px;
+}
+
+
+.footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 270px;
+    width: 100%;
+}
+
+.left1{
+    width: 70%;
+}
+
+.firstLine {
+  margin-top: 56px;
+  /* margin-left: 100px; */
+}
+.secondLine{
+  margin-top: 41px;
+  /* margin-left: px; */
+}
+.firstLine li, .secondLine li{
+  display: inline-block;
+  margin-left: 56px;
+}
+.firstLineBtns ,.secondLineBtns{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.475);
+  /* border: none; */
+  border-right: 12px ;
+  border: solid;
+  border-color: gray;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 0%;
+  transition-duration: 0.9ms;
+  border-left: 100px;
+  
+}
+
+.firstLineBtns1 ,.secondLineBtns1{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.475);
+  border: none;
+  /* border-right: 12px ;
+  border: solid;
+  border-color: gray;
+  border-top: 0px; */
+  border-bottom: 0px;
+  border-radius: 0%;
+  transition-duration: 0.9ms;
+  border-left: 100px;
+}
+
+.lastLine{
+  margin-top: 38px;
+  margin-left: 98px;
+  color: rgba(255, 255, 255, 0.475);
+}
+
+.center1{
+    width: 15%;
+    color: whitesmoke;
+}
+
+.socialMedia{
+  width: 40px;
+  height: 40px;
+}
+.centerImg{
+  margin-top: 30px;
+}
+
+.fb{
+  margin-left: -40px;
+}
+
+.insta, .twitter, .yt{
+  margin-left: 20px;
+}
+
+.right1{
+    width: 15%;
+    color: whitesmoke;
+}
+
+.text1 , .text2{
+    margin-top: 56px;
+}
+
+.storeImg , .imgList{
+    /* display: inline-block; */
+    margin-left: -26px;
+}        
+
+.arrowIcon{
+  width: 40px;
+  margin-left: 157px;
+}
+
+
+.imgList1{
+  margin-left: 19px;
+
+}
+
+
+.alpha li , .alpha1 li{
+display: inline-block;    
+}
+
+.storeIcon{
+  width: 106px;
+ 
 }
